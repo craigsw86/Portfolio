@@ -39,3 +39,7 @@ let watchedMovie29 = new Movie("Harakiri", 1962, "Drama", "Masaki Kobayashi", "J
 let watchedMovie30 = new Movie("Europa Europa", 1990, "Drama", "Agnieszka Holland", ["German", "Russian", "Polish", "Hebrew", "Yiddish"]);
 let watchedMovie31 = new Movie("Phoenix", 2014, "Drama", "Christian Petzold", "German");
 let watchedMovie32 = new Movie("Cold War", 2018, "Drama", "Paweł Pawlikowski", ["Polish", "French"]);
+let watchedMovie33 = new Movie("Viridiana", 1961, "Drama", "Luis Buñuel", "Spanish");
+let watchedMovie34 = new Movie("The Exterminating Angel", 1962, ["Supernatural", "Surrealist"], "Luis Buñuel", "Spanish")
+let watchedMovie35 = new Movie("Simon of the Desert", 1965, "Surrealist", "Luis Buñuel", "Spanish")
+let watchedMovie36 = new Movie("Theeb", 2014, ["Period Drama", "Historical Drama", "Thriller"], "Naji Abu Nowar", "Arabic")
