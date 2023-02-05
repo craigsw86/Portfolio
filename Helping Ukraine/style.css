@@ -1,0 +1,88 @@
+body {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1 {
+    color: gold;
+    font-family: "Roboto", cursive;
+    text-shadow: 0 0 3px blue;
+    text-align: center;
+}
+
+header {
+    height: 30%;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-image: url("https://www.goodfreephotos.com/albums/ukraine/other-ukraine/flag-of-ukraine.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    font-size: 30px;
+    border: 2px solid black;
+}
+
+main {
+    height: 70%;
+    width: 100%;
+    padding: 10px;
+    background: lightgray;
+    border: 2px solid black;
+}
+
+footer {
+    height: 10%;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background: gray;
+    color: black;
+    font-size: 12px;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 0;
+}
+
+.grid-container {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8)
+    border: 1px solid rgba (0, 0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px
+    text-align: center;
+    border: 2px solid black;
+}
+
+.griditemFood {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.griditemFood:hover {
+    visibility: visible;
+}
+
+.filloutForm {
+    
+}
