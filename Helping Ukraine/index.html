@@ -13,7 +13,9 @@
         rel="stylesheet"
       />
       <link rel="stylesheet" href="style.css" />
-      <div class="topbanner">
+      </head>
+      <div class="flag">
+        <div class="flagStripe">
         <h1
           id="websiteTitle"
           href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap"
@@ -21,13 +23,15 @@
         >
           "Слава Україні!"
         </h1>
+        </div>
+        <div class="flagStripe">
         <p>
           This is another great website for donating to Ukraine to help the war
           effort! What would you be willing to donate to the cause?
         </p>
+        </div>
       </div>
     </header>
-  </head>
   <body>
     <div class="grid-container">
       <div class="grid-item" class="griditemFood">Food</div>
@@ -37,7 +41,9 @@
       <div class="grid-item">Cars</div>
       <div class="grid-item">Other</div>
       <div class="griditemFood">
-        <span class="griditemFood">Do you have any food to donate? Please let us know!</span>
+        <span class="griditemFood"
+          >Do you have any food to donate? Please let us know!</span
+        >
       </div>
     </div>
     <div class="filloutForm">
@@ -55,16 +61,20 @@
         /></label>
       </fieldset>
       <fieldset>
-        <label for="referrer">How did you hear about us?
+        <label for="referrer">How did you hear about us?</label>
         <select id="referrer" name="referrer">
-        <option value="">(SELECT ONE)</option>
-        <option value="1">This Website</option>
-        <option value="2">Website Administrator</option>
-        <option value="3">News Outlets</option>
-        <option value="4">Other</option>
-        </label>
+          <option value="">(SELECT ONE)</option>
+          <option value="1">This Website</option>
+          <option value="2">Website Administrator</option>
+          <option value="3">News Outlets</option>
+          <option value="4">Other</option>
         </select>
-        <label id="description" rows="3" cols="30" placeholder="I can donate..."></label>
+        <label
+          id="description"
+          rows="3"
+          cols="30"
+          placeholder="I can donate..."
+        ></label>
       </fieldset>
     </div>
   </body>
