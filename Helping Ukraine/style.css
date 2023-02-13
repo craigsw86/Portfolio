@@ -100,7 +100,7 @@ footer {
     z-index: 1;
 }
 
-.griditemFood:hover {
+.griditemFood:hover .griditemFood-text {
     visibility: visible;
 }
 
