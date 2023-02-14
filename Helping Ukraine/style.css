@@ -86,6 +86,7 @@ footer {
     text-align: center;
     box-shadow: 0 5px .5em .2em #0002;
     border-radius: .2em;
+    font-weight: 900;
 }
 
 .griditemFood {
