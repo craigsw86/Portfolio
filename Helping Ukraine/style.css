@@ -89,6 +89,23 @@ footer {
     font-weight: 900;
 }
 
+.griditemMedical {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.griditemMedical:hover .griditemMedical-text {
+    visibility: visible;
+    position: absolute;
+}
+
 .griditemFood {
     visibility: hidden;
     width: 120px;
@@ -103,6 +120,7 @@ footer {
 
 .griditemFood:hover .griditemFood-text {
     visibility: visible;
+    position: absolute;
 }
 
 .form-container {
