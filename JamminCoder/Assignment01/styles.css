@@ -2,8 +2,20 @@ body {
     background-color: gray;
     position: absolute;
     color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
 }
 
-features {
+h1 {
+    background-color: gray;
+    position: absolute;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
     font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
 }
