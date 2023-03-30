@@ -9,9 +9,9 @@ body {
 }
 
 h1 {
-    color: gold;
+    color: #ffd700;
     font-family: "Brygada 1918";
-    text-shadow: 0 0 3px blue;
+    text-shadow: 0 0 3px #0057b7;
     text-align: center;
 }
 
@@ -50,12 +50,12 @@ main {
 }
 
 footer {
-    height: 10vh;
+    height: 15vh;
     padding: 10px;
     text-align: center;
     background: gray;
     color: black;
-    font-size: 12px;
+    font-size: 16px;
     border: 2px solid black;
     bottom: 0;
 }
@@ -74,11 +74,11 @@ footer {
 }
 
 .bg-blue {
- background-color: rgb(17,17,255);
+ background-color: #0057b7;
 }
 
 .bg-gold {
-    background-color: gold;
+    background-color: #ffd700;
 }
 
 .grid-container {
@@ -86,14 +86,19 @@ footer {
     place-content: center;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 4rem;
-    padding: 4rem 2rem;
-    background-image: url("/images/seamless-pattern-scandinavian-style-with-flowers-birds-butterflies-vector-illustration_529424-678.avif");
-    background-repeat: repeat;
+    padding: 12rem 2rem;
+    background-image: url("https://img.freepik.com/free-vector/vector-illustration-ukrainian-folk-seamless-pattern-ornament-ethnic-ornament-border-element-traditional-ukrainian-belarusian-folk-art-knitted-embroidery-pattern-vyshyvanka_1217-279.jpg?w=1380&t=st=1679142075~exp=1679142675~hmac=6c5711ceee31b7fe313ab5f70077df98211a840d52168b6a0cc2501ea10ff059%22");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    width: auto;
+    height: auto;
+    object-fit: cover;
 }
 
 .grid-item {
     width: clamp(0, 30rem, 100%);
     background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #0057b7;
     padding: 1.5rem;
     font-size: 1.75rem;
     text-align: center;
@@ -107,9 +112,13 @@ footer {
     place-content: center;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 4rem;
-    padding: 4rem 2rem;
-    background-image: url("/images/vector-illustration-ukrainian-folk-seamless-pattern-ornament-ethnic-ornament-border-element-traditional-ukrainian-belarusian-folk-art-knitted-embroidery-pattern-vyshyvanka_1217-281.avif");
-    background-repeat: repeat;
+    padding: 12rem 4rem;
+    background-image: url("https://img.freepik.com/free-vector/vector-illustration-ukrainian-folk-seamless-pattern-ornament-ethnic-ornament-border-element-traditional-ukrainian-belarusian-folk-art-knitted-embroidery-pattern-vyshyvanka_1217-281.jpg?w=1060&t=st=1679139751~exp=1679140351~hmac=b19dcaf07c5b04d4ceed17b77c13b013125f4434e0ea00d4c54c2aa94093bb8a");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+    object-fit: cover;
 }
 
 .form-container {
@@ -155,6 +164,13 @@ fieldset {
 	border-radius: 0.5rem;
     font-family: 'Brygada 1918';
     font-size: 18px;
+    color: #0057b7;
+}
+
+.tooltip:hover .tooltip-text-1 {
+	visibility: visible;
+    background-color: #ffd700;
+    width: 20rem;
 }
 
 .tooltip-text-2 {
@@ -165,20 +181,38 @@ fieldset {
 	width: 10rem;
 	transform: translateY(-100%);
 	padding: 1rem;
-	background-color: white;
+	background-color: #0057b7;
 	border-radius: 0.5rem;
     font-family: 'Brygada 1918';
     font-size: 18px;
-}
-
-.tooltip:hover .tooltip-text-1 {
-	visibility: visible;
-    background-color: yellow;
+    color: #ffd700;
 }
 
 .tooltip:hover .tooltip-text-2 {
 	visibility: visible;
-    background-color: silver;
+    background-color: #0057b7;
+    width: 20rem;
+}
+
+.filloutForm {
+    background-color: skyblue;
+}
+
+.dropdown {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 240px;
+}
+
+.button {
+    font-size: 24px;
+    font-family: 'Brygada 1918';
+    color: #ffd700;
+    background-color: #0057b7;
+    text-align: center;
+    border: 5px groove #ffd700;
+    padding: 16px 32px;
 }
 
 /* @media only screen (max-width: 768px) {
