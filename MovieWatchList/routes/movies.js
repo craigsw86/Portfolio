@@ -12,8 +12,9 @@ router.get('/about', (req, res) => {
 })
 
 // Creating
-router.get('/movies/create', (req, res) => {
+router.post('/movies/create', (req, res) => {
     res.send('Add more movies here!')
+    console.log(req.body.title)
 })
 
 // Updating

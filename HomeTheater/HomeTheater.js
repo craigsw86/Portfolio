@@ -43,3 +43,4 @@ let watchedMovie33 = new Movie("Viridiana", 1961, "Drama", "Luis Buñuel", "Span
 let watchedMovie34 = new Movie("The Exterminating Angel", 1962, ["Supernatural", "Surrealist"], "Luis Buñuel", "Spanish")
 let watchedMovie35 = new Movie("Simon of the Desert", 1965, "Surrealist", "Luis Buñuel", "Spanish")
 let watchedMovie36 = new Movie("Theeb", 2014, ["Period Drama", "Historical Drama", "Thriller"], "Naji Abu Nowar", "Arabic")
+
